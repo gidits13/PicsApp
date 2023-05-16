@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PicsApp.MainPage">
+
+    <StackLayout Padding="30,10,30,10" HorizontalOptions="CenterAndExpand">
+        <Label x:Name="pinL" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" FontSize="18"/>
+        <Entry IsPassword="True" x:Name="pinE" HorizontalTextAlignment="Center" Keyboard="Numeric"/>
+        <Button x:Name="pinB" Clicked="pinB_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
